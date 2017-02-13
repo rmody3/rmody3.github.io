@@ -1,0 +1,21 @@
+# Site settings
+title: Rahul's Journey to Programming
+header-img: img/home-bg.png
+email: rmody3@gmail.com
+copyright_name: rmody3
+description: > # this means to ignore newlines until "baseurl:"
+  Taking a crack at becoming a Full Stack Web Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: RahulTMody
+github_username:  rmody3
+learn_profile: rmody3
+email_username: rmody3@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
