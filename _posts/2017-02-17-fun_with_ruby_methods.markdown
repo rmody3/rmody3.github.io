@@ -5,7 +5,6 @@ date:   2017-02-16 20:50:25 -0500
 ---
 
 ## Interesting String, Array, and Enumerable Methods
-
 Ahh, how I love hour long train rides back home after an exhilirating day of coding. Nothing speeds up the time like reading documentation and going through the inter-webs to find the best methods and tricks so that I never have to use `.each` again. Here's some stuff I've learned so far and how I have/would use it in my code.
 
 ## 1. [Sample](https://ruby-doc.org/core-2.2.0/Array.html#method-i-sample) - returns a randoming element of an array.
