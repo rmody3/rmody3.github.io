@@ -98,4 +98,6 @@ But, but, but,....yeah. If you or a user starts entering numbers and then adds s
 > Integer(not_a_num) rescue nil   #=> nil
 ```
 
+I think the big take away is to know what methods are returning and what happens when they taken in interesting arguments.
+
 
