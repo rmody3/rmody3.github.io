@@ -15,9 +15,9 @@ If you ever want to really screw up your code, just use `.sample` on an array to
 So, if you ever do `an_array[rand(a_num)]` to randomly index, don't, there is a better way. Here's an example:
 
 > `an_array = ["alex, "bob", "carl", "dave"]
-> an_array.sample                                      #=> ["carl"]
+> an_array.sample                                      **#=> ["carl"]**
 > 
-> an_array.sample(2)                                  #=>["bob", "dave"]
+> an_array.sample(2)                                  **#=>["bob", "dave"]**
 
 
 
