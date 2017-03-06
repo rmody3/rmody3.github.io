@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GIT IT DONE"
-date:   2017-03-02 02:21:13 +0000
+date:   2017-03-01 21:21:13 -0500
 ---
 
 After doing the [Flatiron Students Present on GIT](https://docs.google.com/presentation/d/1oUI4ZFEgfg2ZE060B9UGkjiLCNKLwddsruAEHYWbps8/edit?usp=sharing) this past Tuesday, I decided to go deeper into Git and explore beyond the basics.
@@ -27,7 +27,7 @@ In a centralized workflow, one person will intialize a repository and everyone w
 * Commit your changes locally: `Git add .` and `git commit`
 * Pull the remote master: `git pull origin master`
 * Manage merge conflicts
-* Push your up to master to the remote master: `git pull origin master`
+* Push your up to master to the remote master: `git push origin master`
 
 
 We could be done here, but in the real world there is one important distinction between the process I just laid out and what actually happens. When we do a pull, we are fetching the remote master branch and then merging it into our current local branch. This would look something like:
