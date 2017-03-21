@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Indexing a Database"
-date:   2017-03-21 04:42:12 +0000
+date:   2017-03-21 00:42:13 -0400
 ---
 
 
@@ -11,7 +11,7 @@ When searching through a table in a database using a sql statement like
 
 > Select * from user where name = “bob” 
  
-You could imagine that a database would search through every row of date in the table and find all matches. Imagine having a table of millions of rows of data, this would be an exhaustive time consuming process each type a simple where clause query is called. This is known as a full table scan and not a very efficient way to search. So how do SQL databases handle requests like these efficiently?
+You could imagine that a database would search through every row of data in the table and find all matches. Imagine having a table of millions of rows of data, this would be an exhaustive time consuming process each type a simple where clause query is called. This is known as a full table scan and not a very efficient way to search. So how do SQL databases handle requests like these efficiently?
 
 Enter Indexing. Indexing creates data structures on a column of a table so that queries can be performed much faster. An index is a data structure that contains keys which have pointers that point to a row on the table. A good way to think about an index is to think about an index in the a book. A book can be thought of as the table and at the back of the book you have an index which tells you where you can find information on specific words through out the book. The index is sorted alphabetically, so rather than scanning the whole book to find a word, all you have to do is go to the index, find the word which is sorted alphabetically and it contains all pages you can find this word. 
 
