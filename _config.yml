@@ -1,10 +1,10 @@
 # Site settings
-title: Rahul's Journey to Programming
+title: Wat? Oh ok I get...
 header-img: img/home-bg.png
 email: rmody3@gmail.com
 copyright_name: rmody3
 description: > # this means to ignore newlines until "baseurl:"
-  Taking a crack at becoming a Full Stack Web Developer
+  A blog about interesting thing in development and tech
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: RahulTMody
 github_username:  rmody3
